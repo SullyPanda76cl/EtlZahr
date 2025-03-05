@@ -18,7 +18,7 @@ const SelectTable = ({handleSelectTableSubmit}) => {
                 className="text-black w-full p-2 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 required
                 >
-                    <option value="">-- Selecciona una tabla --</option>
+                    <option value="">-- Seleccione una tabla --</option>
                     <option value="VentaNegocio">VentaNegocio</option>
                     <option value="SabanaCompleta">SabanaCompleta</option>
                 </select>
