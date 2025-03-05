@@ -125,7 +125,7 @@ function App() {
             sqlScript.cleanTransform
         ],"/api/query") 
 
-        agregarElementoProcesado("Tabla de transformacion limpiada")
+        agregarElementoProcesado("Tabla de transformación limpiada")
         
 
         const crudaScripts = await enviarTextoPlanoEnOrden(
@@ -141,7 +141,7 @@ function App() {
           sqlScript.transformScripts,"/api/query", setInsertadosT, sqlScript.values.length
         ) 
 
-        agregarElementoProcesado("Datos insertados en Tabla de Transformacion")
+        agregarElementoProcesado("Datos insertados en Tabla de Transformación")
     
 
         const pTemp = await enviarTextoPlanoEnOrden([
@@ -232,7 +232,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center bg-cyan-100">
       {step === 1 ? (
        loading ? (
         <div className="animate-spin h-5 w-5 border-t-2 border-blue-500 rounded-full"></div>
