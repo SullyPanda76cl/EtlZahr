@@ -232,7 +232,8 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-cyan-100">
+    //Aca va el fondo 
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-r from-cyan-500 to-blue-500">
       {step === 1 ? (
        loading ? (
         <div className="animate-spin h-5 w-5 border-t-2 border-blue-500 rounded-full"></div>
@@ -304,7 +305,7 @@ function App() {
       ) : (
 
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-4 text-indigo-600">Usuario, Contraseña o Nombre de Base de datos incorrecta</h2>
+          <h2 className="text-2xl font-bold mb-4 text-indigo-600">Usuario, Contraseña o Nombre de Base de datos incorrecta </h2>
           <RegretButton onClick={step1} />
         </div>
 
